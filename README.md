@@ -5,7 +5,7 @@
 Pour ce faire, il vous faudra utiliser la commande suivante dans votre répertoire wsldev/projects
 
 ```
-git clone [URL DU DEPOT] 
+git clone https://github.com/SWEEPACAKE/api-pixelcoffee.git 
 ```
 
 Ensuite, vous devrez vous rendre dans le dossier qui vient d'être téléchargé, le dossier "api-pixelcoffee", puis son répértoire public
@@ -57,9 +57,9 @@ Vous devriez avoir accès à ces URLS :
 
 # Démarrer votre développement Angular
 
-Dans un AUTRE DOSSIER, démarrez votre projet Angular comme à votre habitude avec
+Dans un AUTRE DOSSIER, démarrez votre projet Angular comme à votre habitude. Rendez vous donc dans votre répertoire wsldev/projects et exécutez la commande : 
 ```
 ng new pixel-coffee
 ``` 
 
-Vous devrez, dans votre projet, appeler l'API sur l'URL http://localhost:8080/endpoint
+Vous devrez, dans les services de votre projet, appeler l'API sur l'URL http://localhost:8080/{endpoint de votre choix}
