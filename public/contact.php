@@ -4,7 +4,7 @@ include 'includes/jwt-handler.php';
 include 'includes/db.php';
 
 if(!empty($_POST)) {
-    $query = "INSERT INTO contact (first_name, last_name, email, company, message) VALUES (?, ?, ?, ?, ?)";
+    $query = "INSERT INTO contacts (first_name, last_name, email, company, message) VALUES (?, ?, ?, ?, ?)";
     
     $stmt = $database->prepare($query);
     $resultat = $stmt->execute([
